@@ -1,0 +1,32 @@
+.skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card{
+    mwidth: 200px;
+    height: 200px;
+    background-color: var(--card);
+    border-radius: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   cursor: pointer;
+}
+
+.card img{
+    min-width: 60px;
+}
+
+.card h3{
+    text-align: center;
+    color: white;
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+}

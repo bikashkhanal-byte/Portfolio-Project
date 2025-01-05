@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <nav id="nav-bar">
+            <!--                        navigation Bar              -->
+            <ul class="sidebar">
+                <li onclick="HideSideBar()"><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#fff">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+                </a></li>
+                <li><a href="#About">AboutMe</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#Contact">ContactMe</a></li>
+                                
+            </ul>
+            <div class="logo" id="HideDevice">
+                <a href="#">
+                    <img src="./image/IMG_20241110_191238_991.jpg" alt="" >
+                </a>
+            </div>
+            <ul id="ul">
+                <li id="HideDevice"><a href="#About">AboutMe</a></li>
+                <li id="HideDevice"><a href="#Contact">ContactMe</a></li>
+                <li id="HideDevice"><a href="#portfolio">Portfolio</a></li>
+                <li onclick="ShowSidebar()"><a href="#">
+                <svg   class="HideOnDevice" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width = "40px" fill =" #FFC86B" >
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                </a></li>
+            </ul>
+            <div class="search" id="HideDevice">
+                <input type="search" placeholder="Search">
+                <i class="ri-search-2-line"></i>
+            </div>
+        </nav>
+        <!--              Hero Section                   -->
+       <section id="Hero">
+        <div class="main_container">
+            <div class="main_container_data">
+                <p class="name">I'm<span style="color: #F0BF6C; "> Bikash</span></p>
+                <h1 class="dev">Front End Developer </h1>
+                <button class="contact-btn">Contact Me </button>
+            </div>
+            <img src="./image/IMG_20241110_191238_991.jpg" alt="">
+        </div>
+           
+
+        <!--                          About                          -->
+
+        <section id="About">
+            <div class="about_divider"></div>
+            <article class="about_data">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. At iusto quibusdam temporibus molestiae laudantium provident repudiandae cumque nulla reiciendis iure! Dicta numquam accusamus unde? Amet soluta fugit quia officiis exercitationem?
+                </article>
+        </section>
+        <!--                      My-SKills                      -->
+
+        <div id="Skills">
+            <h1 >my skills</h1>
+            <div class="skill">
+                <div class="card">
+                    <img src="./image/logo/Python_logo.png" alt="Python logo">
+                    <h3>Python</h3>
+                </div>
+                    <div class="card">
+                        <img src="./image/logo/C.png" alt="Python logo">
+                        <h3>C</h3>
+                    </div>
+                    <div class="card">
+                        <img src="./image/logo/JS_logo.png" alt="Python logo">
+                        <h3>Java Script</h3>
+                    </div>
+                    <div class="card">
+                        <img src="./image/logo/HTML_logo.png" alt="Python logo">
+                        <h3>HTML & CSS</h3>
+                    </div>
+                </div>
+            <div class="skill">
+                <div class="card">
+                    <img src="./image/logo/Flutter_logo.png" alt="Python logo">
+                    <h3>Flutter</h3>
+                </div>
+                <div class="card">
+                    <img src="./image/logo/Frappe_logo.png" alt="Python logo">
+                    <h3>Frappe</h3>
+                </div>
+            </div>
+        </div>
+        <!--                      My-Portfolio                      -->
+        <h1 class="Portfolio">My Portfolio</h1>
+        <section id="Portfolio">
+            <div class="portfolio__data">
+                <div class="img">
+                    <div class="container">
+                        <img src="./image/Portfolio image/portfolio1.jpg" alt="">
+                        <div class="overlay">
+                            <h1>Amazon Scrapper</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, quis.</p>
+                            <button>See More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="container">
+                        <img src="./image/Portfolio image/portfolio 2.webp" alt="">
+                        <div class="overlay">
+                            <h1>Amazon Scrapper</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, quis.</p>
+                            <button>See More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="container">
+                        <img src="./image/Portfolio image/portfolio 3.webp" alt="">
+                        <div class="overlay">
+                            <h1>Amazon Scrapper</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, quis.</p>
+                            <button>See More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="portfolio__data">
+                <div class="img">
+                    <div class="container">
+                        <img src="./image/Portfolio image/portfolio 4.jpg" alt="">
+                        <div class="overlay">
+                            <h1>Amazon Scrapper</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, quis.</p>
+                            <button>See More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="container">
+                        <img src="./image/Portfolio image/portfolio 5.jpg" alt="">
+                        <div class="overlay">
+                            <h1>Amazon Scrapper</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, quis.</p>
+                            <button>See More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="img">
+                    <div class="container">
+                        <img src="./image/Portfolio image/portfolio 6.jpg" alt="">
+                        <div class="overlay">
+                            <h1>Amazon Scrapper</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam, quis.</p>
+                            <button>See More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="view">
+                <Button>View More</Button>
+            </div>
+            </section>
+            <!--                    Testimonial Section              -->
+            <section id="Testimonial">
+                <h1>Testimonial</h1>
+                <article>
+                    <div class="divider_3"></div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cumque corporis nostrum, delectus doloribus obcaecati fugit iusto consequuntur optio expedita eos debitis asperiores officiis deleniti. Quisquam, pariatur quaerat repudiandae assumenda asperiores saepe magni laudantium, et laborum numquam rem illum facere, fugit eum voluptatum quod eius tempore aut quam sequi temporibus!
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam cumque corporis nostrum, delectus doloribus obcaecati fugit iusto consequuntur optio expedita eos debitis asperiores officiis deleniti. Quisquam, pariatur quaerat repudiandae assumenda asperiores saepe magni laudantium, et laborum numquam rem illum facere, fugit eum voluptatum quod eius tempore aut quam sequi temporibus!    
+                    </p>
+                </article>
+                <h3 class="name">Bikash Khanal </h3>
+                <div class="data">
+                    <div class="divider_4"></div>
+                    <p >Front Developer</p>
+                </div>
+                </div>
+            </section>
+            <!--                    Contact Section              -->
+
+            <section id="Contact">
+                <div class="div__data">
+                    <div class="divider_5"></div>
+                    <h1 >Contact Me</h1>
+                    <div class="divider_5"></div>
+                </div>
+                <div class="icon_data">
+                    <div class="icon">
+                        <a href="https://web.whatsapp.com/ " target="_blank">
+                            <i class="ri-phone-line"></i>
+                            <p>+91 9746871391</p>
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                            <i class="ri-mail-send-line"></i>
+                            <p>bikashkhanak760@gmail.com</p>
+                    </a>
+                    </div>
+                    <div class="icon">
+                            <i class="ri-map-pin-line"></i>
+                            <p>New York, USA</p>
+                    </div>
+                </div>
+                <div class="links_2">
+                    <div class=" divider_5"></div>
+                    <a href="https://www.facebook.com/profile.php?id=100080664020922"><i class="ri-facebook-line"></i></a>
+                    <a href="https://x.com/bikashK33283918"><i class="ri-twitter-line"></i></a>
+                    <a href=https://www.instagram.com/bikashh___69/"><i class="ri-instagram-line"></i></a>
+                    <a href=" https://www.linkedin.com/in/bikash-khanal-b51bb3253/" "><i class="ri-linkedin-line"></i></a>
+                    <div class="divider_5"></div>
+
+                </div>
+            </section>
+       </section>
+    </main>
+
+</body>
+<script src="script.js"></script>
+</html>
